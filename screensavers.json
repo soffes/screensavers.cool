@@ -1,24 +1,18 @@
 {
-  "screensavers": [
+  "mine": [
     {
-      "name": "Countdown",
-      "description": "Countdown to your big day",
-      "github_user": "soffes",
-      "github_repo": "Countdown",
-      "product_hunt_url": "https://www.producthunt.com/tech/countdown-screen-saver"
-    },
-    {
-      "name": "Clocks inspired by Braun",
+      "name": "Clock",
       "description": "Simple clocks inspried by Braun watches",
       "github_user": "soffes",
       "github_repo": "clock-saver",
       "dribbble_url": "http://dribbble.com/shots/1460483-Clock-Screensaver"
     },
     {
-      "name": "Whiksy Fire",
-      "description": "A glorious screen saver of Nick Offerman drinking whisky on repeat",
+      "name": "Countdown",
+      "description": "Countdown to your big day",
       "github_user": "soffes",
-      "github_repo": "whisky-fire"
+      "github_repo": "Countdown",
+      "product_hunt_url": "https://www.producthunt.com/tech/countdown-screen-saver"
     },
     {
       "name": "Motivation",
@@ -32,6 +26,26 @@
       "github_user": "soffes",
       "github_repo": "WhatColorIsIt",
       "blog_post_url": "https://blog.soff.es/what-color-is-it"
+    },
+    {
+      "name": "Whiksy Fire",
+      "description": "Nick Offerman drinking whisky on repeat",
+      "github_user": "soffes",
+      "github_repo": "whisky-fire"
+    }
+  ],
+  "others": [
+    {
+      "name": "Saver Screensson",
+      "description": "Geometric, colors, awesome",
+      "url": "http://saver.is"
+    },
+    {
+      "name": "Padbury Clock",
+      "description": "Elegant, minimalist clock",
+      "url": "http://padbury.me/clock/",
+      "dribbble_url": "https://dribbble.com/shots/1376058-Padbury-Clock-Screen-Saver",
+      "product_hunt_url": "https://www.producthunt.com/tech/padbury-clock-screensaver"
     }
   ]
 }

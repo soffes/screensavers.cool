@@ -1,6 +1,17 @@
-<p>Here's some screensavers:</p>
+<p>Here are some screensavers I made:</p>
+
 <ul>
-  <% screensavers.each do |screensaver| %>
-  <li><a href="https://github.com/<%= screensaver['github_user'] %>/<%= screensaver['github_repo'] %>"><%= screensaver['name'] %></a></li>
+  <% screensavers['mine'].each do |screensaver| %>
+  <li><a href="https://github.com/<%= screensaver['github_user'] %>/<%= screensaver['github_repo'] %>"><%= screensaver['name'] %></a> — <%= screensaver['description'] %></li>
   <% end %>
 </ul>
+
+<p>Here are some screensavers I didn't make that are great:</p>
+
+<ul>
+  <% screensavers['others'].each do |screensaver| %>
+  <li><a href="<%= screensaver['url'] %>"><%= screensaver['name'] %></a> — <%= screensaver['description'] %></li>
+  <% end %>
+</ul>
+
+<p>Enjoy.</p>

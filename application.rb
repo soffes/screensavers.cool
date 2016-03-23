@@ -8,6 +8,6 @@ class Application < Sinatra::Base
   private
 
   def screensavers
-    @@_screensavers ||= JSON(File.read('screensavers.json'))['screensavers']
+    @@_screensavers ||= JSON(File.read('screensavers.json'))
   end
 end
