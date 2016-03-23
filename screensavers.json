@@ -1,0 +1,37 @@
+{
+  "screensavers": [
+    {
+      "name": "Countdown",
+      "description": "Countdown to your big day",
+      "github_user": "soffes",
+      "github_repo": "Countdown",
+      "product_hunt_url": "https://www.producthunt.com/tech/countdown-screen-saver"
+    },
+    {
+      "name": "Clocks inspired by Braun",
+      "description": "Simple clocks inspried by Braun watches",
+      "github_user": "soffes",
+      "github_repo": "clock-saver",
+      "dribbble_url": "http://dribbble.com/shots/1460483-Clock-Screensaver"
+    },
+    {
+      "name": "Whiksy Fire",
+      "description": "A glorious screen saver of Nick Offerman drinking whisky on repeat",
+      "github_user": "soffes",
+      "github_repo": "whisky-fire"
+    },
+    {
+      "name": "Motivation",
+      "description": "Terrifyingly see your life pass you by",
+      "github_user": "soffes",
+      "github_repo": "Motivation"
+    },
+    {
+      "name": "What Color Is It",
+      "description": "Time of day as a color",
+      "github_user": "soffes",
+      "github_repo": "WhatColorIsIt",
+      "blog_post_url": "https://blog.soff.es/what-color-is-it"
+    }
+  ]
+}

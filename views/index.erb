@@ -1,0 +1,6 @@
+<p>Here's some screensavers:</p>
+<ul>
+  <% screensavers.each do |screensaver| %>
+  <li><a href="https://github.com/<%= screensaver['github_user'] %>/<%= screensaver['github_repo'] %>"><%= screensaver['name'] %></a></li>
+  <% end %>
+</ul>
