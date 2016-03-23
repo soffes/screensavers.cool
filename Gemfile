@@ -21,7 +21,6 @@ gem 'rack-canonical-host'
 # Stylesheet
 gem 'sass'
 gem 'sprockets-sass'
-gem 'bourbon'
 
 group :development do
   # Automatic reloading
