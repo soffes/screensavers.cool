@@ -1,23 +1,18 @@
 import Page from '../components/page'
-import 'isomorphic-fetch'
+import { mine, others } from '../screensavers.json';
 
 export default class Homepage extends React.Component {
-  static async getInitialProps () {
-    const res = await fetch('http://localhost:3000/static/screensavers.json')
-    return await res.json()
-  }
-
   render () {
     return (
       <Page>
         <p>Here are some screensavers I made:</p>
         <ul>
-          {this.createItems(this.props.mine)}
+          {this.createItems(mine)}
         </ul>
 
         <p>Here are some screensavers I didn't make that are great:</p>
         <ul>
-          {this.createItems(this.props.others)}
+          {this.createItems(others)}
         </ul>
 
         <p>Enjoy.</p>
