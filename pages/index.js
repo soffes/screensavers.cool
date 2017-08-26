@@ -4,7 +4,7 @@ import { mine, others } from '../screensavers.json';
 const createItems = (items) => {
   return items.map(function (item) {
     return (
-      <li><a href={item.url} rel="external nofollow">{item.name}</a> — {item.description}</li>
+      <li key={item.name}><a href={item.url} rel="external nofollow">{item.name}</a> — {item.description}</li>
     )
   });
 }
