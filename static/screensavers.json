@@ -1,10 +1,18 @@
 {
   "mine": [
     {
+      "name": "Langton’s Ant",
+      "description": "Deterministic chaos",
+      "github_user": "soffes",
+      "github_repo": "langtons-ant",
+      "url": "https://github.com/soffes/langtons-ant"
+    },
+    {
       "name": "Clock",
       "description": "Simple clocks inspried by Braun watches",
       "github_user": "soffes",
       "github_repo": "clock-saver",
+      "url": "https://github.com/soffes/clock-saver",
       "dribbble_url": "http://dribbble.com/shots/1460483-Clock-Screensaver"
     },
     {
@@ -12,26 +20,30 @@
       "description": "Countdown to your big day",
       "github_user": "soffes",
       "github_repo": "Countdown",
+      "url": "https://github.com/soffes/Countdown",
       "product_hunt_url": "https://www.producthunt.com/tech/countdown-screen-saver"
     },
     {
       "name": "Motivation",
       "description": "Terrifyingly see your life pass you by",
       "github_user": "soffes",
-      "github_repo": "Motivation"
+      "github_repo": "Motivation",
+      "url": "https://github.com/soffes/Motivation"
     },
     {
       "name": "What Color Is It",
       "description": "Time of day as a color",
       "github_user": "soffes",
       "github_repo": "WhatColorIsIt",
+      "url": "https://github.com/soffes/WhatColorIsIt",
       "blog_post_url": "https://blog.soff.es/what-color-is-it"
     },
     {
       "name": "Whiksy Fire",
       "description": "Nick Offerman drinking whisky on repeat",
       "github_user": "soffes",
-      "github_repo": "whisky-fire"
+      "github_repo": "whisky-fire",
+      "url": "https://github.com/soffes/whiskey-fire"
     }
   ],
   "others": [
