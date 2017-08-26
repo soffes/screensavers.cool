@@ -1,13 +1,13 @@
-# soff.es
+# [screensavers.cool](https://screensavers.cool)
 
-This is my [website](https://soff.es). It’s pretty simple. My blog is at [blog.soff.es](https://blog.soff.es).
+List of screensavers I like.
 
 ## Running Locally
 
 Get the source:
 
-    $ git clone https://github.com/soffes/soff.es.git
-    $ cd soff.es
+    $ git clone https://github.com/soffes/screensavers.cool
+    $ cd screensavers.cool
 
 Get the dependencies:
 
