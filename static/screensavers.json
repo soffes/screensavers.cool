@@ -48,6 +48,13 @@
   ],
   "others": [
     {
+      "name": "Aerial",
+      "description": "Apple TV aerial screensaver",
+      "github_user": "JohnCoates",
+      "github_repo": "Aerial",
+      "url": "https://github.com/JohnCoates/Aerial"
+    },
+    {
       "name": "Saver Screensson",
       "description": "Geometric, colors, awesome",
       "url": "http://saver.is"
