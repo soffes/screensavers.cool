@@ -1,35 +1,28 @@
 import Page from '../components/page'
-import 'isomorphic-fetch'
+import { mine, others } from '../screensavers.json';
 
-export default class Homepage extends React.Component {
-  static async getInitialProps () {
-    const res = await fetch('http://localhost:3000/static/screensavers.json')
-    return await res.json()
-  }
-
-  render () {
+const createItems = (items) => {
+  return items.map(function (item) {
     return (
-      <Page>
-        <p>Here are some screensavers I made:</p>
-        <ul>
-          {this.createItems(this.props.mine)}
-        </ul>
-
-        <p>Here are some screensavers I didn't make that are great:</p>
-        <ul>
-          {this.createItems(this.props.others)}
-        </ul>
-
-        <p>Enjoy.</p>
-      </Page>
+      <li key={item.name}><a href={item.url} rel="external nofollow">{item.name}</a> — {item.description}</li>
     )
-  }
-
-  createItems (items) {
-    return items.map(function (item) {
-      return (
-        <li><a href={item.url} rel="external nofollow">{item.name}</a> — {item.description}</li>
-      )
-    })
-  }
+  });
 }
+
+const Homepage = () => (
+  <Page>
+    <p>Here are some screensavers I made:</p>
+    <ul>
+      {createItems(mine)}
+    </ul>
+
+    <p>Here are some screensavers I didn't make that are great:</p>
+    <ul>
+      {createItems(others)}
+    </ul>
+
+    <p>Enjoy.</p>
+  </Page>
+)
+
+export default Homepage;
