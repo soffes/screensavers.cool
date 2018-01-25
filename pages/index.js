@@ -11,12 +11,12 @@ const createItems = (items) => {
 
 export default () => (
   <Page>
-    <p>Here are some screensavers I made:</p>
+    <p>Here are some screensavers <a href="https://soff.es">Sam</a> made:</p>
     <ul>
       {createItems(mine)}
     </ul>
 
-    <p>Here are some screensavers I didn't make that are great:</p>
+    <p>Here are some screensavers Sam didn’t make that are great:</p>
     <ul>
       {createItems(others)}
     </ul>
