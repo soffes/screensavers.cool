@@ -5,7 +5,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "extport": "next build && next export"
+    "export": "next build && next export"
   },
   "main": "pages/index.js",
   "dependencies": {
