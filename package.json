@@ -16,7 +16,7 @@
     "webpack": "^4.29.3"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "^1.8.0"
+    "babel-plugin-styled-components": "^1.10.6"
   },
   "description": "Screensavers.cool",
   "repository": "https://github.com/soffes/screensavers.cool",
