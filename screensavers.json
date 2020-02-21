@@ -1,19 +1,19 @@
 {
   "mine": [
     {
-      "name": "Langton’s Ant",
-      "description": "Deterministic chaos",
-      "github_user": "soffes",
-      "github_repo": "langtons-ant",
-      "url": "https://github.com/soffes/langtons-ant"
-    },
-    {
       "name": "Clock",
       "description": "Simple clocks inspried by Braun watches",
       "github_user": "soffes",
       "github_repo": "clock-saver",
       "url": "https://github.com/soffes/clock-saver",
       "dribbble_url": "http://dribbble.com/shots/1460483-Clock-Screensaver"
+    },
+    {
+      "name": "Langton’s Ant",
+      "description": "Deterministic chaos",
+      "github_user": "soffes",
+      "github_repo": "langtons-ant",
+      "url": "https://github.com/soffes/langtons-ant"
     },
     {
       "name": "Countdown",
