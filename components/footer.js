@@ -19,7 +19,7 @@ const FooterContainer = styled.footer`
 const Footer = (props) => {
   return(
     <FooterContainer>
-      <p>© 2019 <a href="https://soff.es" rel="external">Sam Soffes</a></p>
+      <p>© 2016–2020 <a href="https://soff.es" rel="external">Sam Soffes</a></p>
     </FooterContainer>
   )
 }
