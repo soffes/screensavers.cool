@@ -9,18 +9,18 @@ const createItems = (items) => {
   })
 }
 
-export default () => (
-  <Page>
-    <p>Here are some screensavers <a href="https://soff.es">Sam</a> made:</p>
-    <ul>
-      {createItems(mine)}
-    </ul>
+const Home = () => <Page>
+  <p>Here are some screensavers <a href="https://soff.es">Sam</a> made:</p>
+  <ul>
+    {createItems(mine)}
+  </ul>
 
-    <p>Here are some screensavers Sam didn’t make that are great:</p>
-    <ul>
-      {createItems(others)}
-    </ul>
+  <p>Here are some screensavers Sam didn’t make that are great:</p>
+  <ul>
+    {createItems(others)}
+  </ul>
 
-    <p>Enjoy.</p>
-  </Page>
-)
+  <p>Enjoy.</p>
+</Page>
+
+export default Home
